@@ -85,7 +85,7 @@ a {
   border-radius: 10rem;
   cursor: pointer;
 }
-cta-submit:hover {
+.cta-submit:hover {
   background-color: #fff;
   color: hsl(25, 97%, 53%);
 }
