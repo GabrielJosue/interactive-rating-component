@@ -1,0 +1,104 @@
+@import url('https://fonts.google.com/specimen/Overpass');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+ font-size: 1.5rem;
+ font-family: 'Overpass';
+ background-color: hsl(216, 12%, 8%);
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 140rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 200px auto;
+}
+
+.raiting-component{
+    width: 41.2rem;
+    height: 41.6rem;
+    border-radius: 3rem;
+    padding: 0 4rem;
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: hsl(213, 19%, 18%);
+}
+.star-container{
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    background-color: #262E38;
+}
+.heading-primary{
+    font-size: 2.8rem;
+    color: #fff;
+    font-weight: bold;
+}
+.heading-secondary{
+    color: hsl(25, 97%, 53%);;
+}
+.description{
+ color: hsl(217, 12%, 63%);
+}
+.raiting-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+.raiting-number{
+    width: 5.1rem;
+    height: 5.1rem;
+    border-radius: 50%;
+    background-color: #262E38;
+    color: #7C8798;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active{
+    background-color: hsl(25, 97%, 53%); 
+}
+/* .raiting-number:hover{
+    background-color: hsl(25, 97%, 53%);
+} */
+.cta-submit{
+    width: 34.1rem;
+    height: 4.5rem;
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 10rem;
+    cursor: pointer;
+}
+/* thanks component */
+.thanks-component{
+    width: 41.2rem;
+    height: 41.6rem;
+    border-radius: 3rem;
+    padding: 0 4rem;
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+     align-items: center;
+    justify-content: center;
+    background-color: hsl(213, 19%, 18%);
+}
+
+/* helper class */
+.d-none{
+    display: none;
+}

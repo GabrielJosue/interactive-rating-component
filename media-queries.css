@@ -1,0 +1,17 @@
+@media (min-width:375px) and (max-width:768px){
+    .container{
+        width: 100%;
+        padding: 0 40px;
+    }
+    .raiting-component{
+        width: 100%;
+    }
+    .raiting-number{
+        width: auto;
+        height: auto;
+    }
+    .cta-submit{
+        width: 100%;
+    }
+
+}
